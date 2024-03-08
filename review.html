@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="menu.html">Menu</a> 
+    <a href="reservation.html">Make Reservations</a> 
+    <a href="order.html">Order Online</a> 
+    <a href="review.html">Leave A Review</a> 
+    <a href="aboutus.html">About Us</a>
+</nav>
+
+<h1>
+    Leave a Review
+</h1>
+
+<div class="reviewform">
+    <form method="post">
+            <div class="reviewform">
+            <p>Name</p>
+            <input type="text" name="name" required>
+        </div>
+        <div class="reviewform">
+            <p>Email</p>
+            <input type="email" name="email" required>
+        </div>
+        <div class="reviewform">
+            <p>Rating</p>
+            <select name="rating" required>
+                <option value="">Select rating</option>
+                <option value="5">5 stars</option>
+                <option value="4">4 stars</option>
+                <option value="3">3 stars</option>
+                <option value="2">2 stars</option>
+                <option value="1">1 star</option>
+            </select>
+        </div>
+        <div class="reviewform">
+            <p>Comments or Concerns</p>
+            <textarea name="comments" rows="8" cols="50"></textarea>
+        </div>
+        <br><br>
+        <div class="reviewform">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+</body>
+</html>

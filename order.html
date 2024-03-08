@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="menu.html">Menu</a> 
+    <a href="reservation.html">Make Reservations</a> 
+    <a href="order.html">Order Online</a> 
+    <a href="review.html">Leave A Review</a> 
+    <a href="aboutus.html">About Us</a>
+</nav>
+
+<h1>
+    Online Ordering
+</h1>
+<form method="post">
+
+    <label class="order" for="product">Select Food Item:</label>
+    <select class="order" id="product" name="product" required>
+        <option value="">Select Food Item</option>
+        <option class="order" value="item1">Classic Burger</option>
+        <option class="order" value="item2">Magherita Pizza</option>
+        <option class="order" value="item2">Philly Cheesesteak</option>
+        
+    </select>
+    <br><br>
+
+    <label class="order" for="quantity">Quantity:</label>
+    <input class="order" type="number" id="quantity" name="quantity" min="1" required>
+    <br><br>
+
+    <label class="order" for="name">Name:</label>
+    <input class="order" type="text" id="name" name="name" required>
+    <br><br>
+
+    <label class="order" for="email">Email:</label>
+    <input class="order" type="email" id="email" name="email" required>
+    <br><br>
+
+    <label class="order" for="address">Delivery Address:</label>
+    <textarea class="order" id="address" name="address" rows="4" required></textarea>
+    <br><br><br><br>
+
+    <input type="submit" value="Place Order">
+</form>
+
+</body>
+</html>

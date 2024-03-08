@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a> 
+    <a href="menu.html">Menu</a> 
+    <a href="reservation.html">Make Reservations</a> 
+    <a href="order.html">Order Online</a> 
+    <a href="review.html">Leave A Review</a> 
+    <a href="aboutus.html">About Us</a>
+</nav>
+
+<h1>
+    Reservations
+</h1>
+
+<form method="post">
+    <label class="reservation" for="name">Name:</label>
+    <input class="reservation" type="text" id="name" name="name" required>
+    <br><br>
+
+    <label class="reservation" for="email">Email:</label>
+    <input class="reservation" type="email" id="email" name="email" required>
+    <br><br>
+
+    <label class="reservation" for="phone">Phone:</label>
+    <input class="reservation" type="tel" id="phone" name="phone" required>
+    <br><br>
+
+    <label class="reservation" for="date">Date:</label>
+    <input class="reservation" type="date" id="date" name="date" required>
+    <br><br>
+
+    <label class="reservation" for="time">Time:</label>
+    <input class="reservation" type="time" id="time" name="time" required>
+    <br><br>
+
+    <label class="reservation" for="party-size">Party Size:</label>
+    <input class="reservation" type="number" id="party-size" name="party-size" min="1" required>
+    <br><br>
+
+    <label class="reservation" for="additional">Additional Information:</label>
+    <textarea class="reservation" id="additional" name="additional" rows="4"></textarea>
+    <br><br><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
